@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Typing Game</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Typing Game</h1>
+		</header>
+		<main>
+			<section id="game">
+				<input type="text" class="input-area" autofocus />
+				<div id="text-area" placeholder=""></div>
+				<div id="stats">
+					<p>Your speed: <span id="wpm"></span> wpm</p>
+					<p>Time: <span id="time"></span></p>
+					<p>Accuracy: <span id="accuracy"></span>%</p>
+				</div>
+				<button id="try-again-button">Try Again</button>
+			</section>
+		</main>
+		<footer>
+			<p>&copy; 2024 Typing Game</p>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>
